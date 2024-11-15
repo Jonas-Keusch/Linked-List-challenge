@@ -144,18 +144,18 @@ print("Last element:", ll.get_last())
 
 print("Element at index 2:", ll.get_at_index(2))
 
-# Remove element at index 2 (value 30)
+
 ll.remove_at_index(2)
 print("List after removal at index 2:", ll)
 
-# Check if list is empty
+
 print("Is the list empty?", ll.is_empty())
 
-# Reverse the list
+
 ll.reverse()
 print("Reversed list:", ll)
 
-# Remove the first and last elements
+
 ll.remove_first()
 ll.remove_last()
 print("List after removing first and last:", ll)
